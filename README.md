@@ -1,12 +1,13 @@
+
 # TwoWayBondage
 
 [![Swift Version][swift-image]][swift-url] [![License][license-image]][license-url]
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Simple two way binding Library 
 
 ## Requirements
+- iOS 10.0+
+- Swift 4
 
 ## Installation
 
@@ -17,11 +18,11 @@ it, simply add the following line to your Podfile:
 pod 'TwoWayBondage'
 ```
 
-## Author
-
-Martin Vasilev, martin.vasilev@upnetix.com
-Not really.. Using https://github.com/manishkkatoch/SimpleTwoWayBindingIOS so.. check there for updates
-
 ## License
 
 TwoWayBondage is available under the MIT license. See the LICENSE file for more info.
+
+[swift-image]:https://img.shields.io/badge/swift-5-green.svg
+[swift-url]: https://swift.org/
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
