@@ -1,0 +1,22 @@
+{
+  "name": "TwoWayBondage",
+  "version": "0.1.0",
+  "summary": "A short description of TwoWayBondage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Martin Vasilev/TwoWayBondage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Martin Vasilev": "martin.vasilev@upnetix.com"
+  },
+  "source": {
+    "git": "https://github.com/Martin Vasilev/TwoWayBondage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TwoWayBondage/Classes/**/*"
+}

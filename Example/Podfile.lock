@@ -1,0 +1,16 @@
+PODS:
+  - TwoWayBondage (0.1.0)
+
+DEPENDENCIES:
+  - TwoWayBondage (from `../`)
+
+EXTERNAL SOURCES:
+  TwoWayBondage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TwoWayBondage: ac28de90800c559d22279807741df3985794deb6
+
+PODFILE CHECKSUM: f7356731470990c48c7ac3b7b44eef0f85451227
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module TwoWayBondage {
+  umbrella header "TwoWayBondage-umbrella.h"
+
+  export *
+  module * { export * }
+}

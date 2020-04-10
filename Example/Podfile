@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TwoWayBondage_Tests' do
+  pod 'TwoWayBondage', :path => '../'
+  
+  
+end
