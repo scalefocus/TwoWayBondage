@@ -1,9 +1,6 @@
 # TwoWayBondage
 
-[![CI Status](https://img.shields.io/travis/Martin Vasilev/TwoWayBondage.svg?style=flat)](https://travis-ci.org/Martin Vasilev/TwoWayBondage)
-[![Version](https://img.shields.io/cocoapods/v/TwoWayBondage.svg?style=flat)](https://cocoapods.org/pods/TwoWayBondage)
-[![License](https://img.shields.io/cocoapods/l/TwoWayBondage.svg?style=flat)](https://cocoapods.org/pods/TwoWayBondage)
-[![Platform](https://img.shields.io/cocoapods/p/TwoWayBondage.svg?style=flat)](https://cocoapods.org/pods/TwoWayBondage)
+[![Swift Version][swift-image]][swift-url] [![License][license-image]][license-url]
 
 ## Example
 
