@@ -1,6 +1,4 @@
 use_frameworks!
-target 'TwoWayBondage_Tests' do
-  pod 'TwoWayBondage', :path => '../'
-  
-  
+target 'TwoWayBondageDemo' do
+    pod 'TwoWayBondage', :path => '../'
 end

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TwoWayBondage_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TwoWayBondage_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_TwoWayBondageDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TwoWayBondageDemoVersionString[];
 

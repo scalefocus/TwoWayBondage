@@ -1,8 +1,7 @@
 //
 //  Bindable.swift
-//  SimpleTwoWayBinding
+//  TwoWayBondage
 //
-//  Created by Manish Katoch on 11/26/17.
 //
 
 import Foundation

@@ -1,5 +1,5 @@
 //
-//  SimpleTwoWayBindings-Bridging-Header.h
+//  TwoWayBondage-Bridging-Header.h
 //  Pods
 //
 //  Created by Martin Vasilev on 13.08.18.

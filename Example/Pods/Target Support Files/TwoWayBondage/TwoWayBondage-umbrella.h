@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "BlockBasedSelector.h"
+#import "SimpleTwoWayBindings-Bridging-Header.h"
 
 FOUNDATION_EXPORT double TwoWayBondageVersionNumber;
 FOUNDATION_EXPORT const unsigned char TwoWayBondageVersionString[];
