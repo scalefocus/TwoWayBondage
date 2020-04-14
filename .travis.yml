@@ -15,7 +15,4 @@ jobs:
       - stage: lint
         install: gem install cocoapods -v '~> 1.7.5'
         script: pod lib lint
-      - stage: test
-        script:
-        - pod install --project-directory=Example
-        - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/TwoWayBondageDemo.xcworkspace -scheme TwoWayBondageDemo -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+
