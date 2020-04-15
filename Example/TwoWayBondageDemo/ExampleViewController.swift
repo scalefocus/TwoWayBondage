@@ -14,6 +14,7 @@ class ExampleViewController: UIViewController {
     @IBOutlet private weak var nameTextField: UITextField!
     @IBOutlet private weak var welcomeLabel: UILabel!
     @IBOutlet private weak var broccoliSwitch: UISwitch!
+    @IBOutlet private weak var iceCreamSwitch: UISwitch!
     
     // MARK: - Private
     private var viewModel: ExampleViewModel = ExampleViewModel()
@@ -28,6 +29,10 @@ class ExampleViewController: UIViewController {
     private func bindEvents() {
         nameTextField.bind(with: viewModel.name)
         broccoliSwitch.bind(with: viewModel.isBroccoliLover)
+        
+        viewModel.isIceCreamLover.bindAndFire{ [weak self] value in
+            self?.iceCreamSwitch.setOn(value, animated: true)
+        }
         
         viewModel.isBroccoliLover.bind { [weak self] isBroccoliLover in
             self?.welcomeLabel.backgroundColor = isBroccoliLover ? .systemGreen : .white

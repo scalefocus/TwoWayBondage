@@ -12,4 +12,5 @@ import TwoWayBondage
 struct ExampleViewModel {
     let name: Observable<String> = Observable<String>()
     let isBroccoliLover: Observable<Bool> = Observable<Bool>()
+    let isIceCreamLover: Observable<Bool> = Observable<Bool>(true)
 }
