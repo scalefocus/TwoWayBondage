@@ -24,7 +24,7 @@ TODO: TwoWayBondage adds binding between UIControls and Observables Using https:
   s.homepage         = 'https://github.com/scalefocus/TwoWayBondage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { "Scalefocus" => "code@upnetix.com" }
+  s.author           = { "Scalefocus" => "ios@scalefocus.com" }
   s.source           = { :git => 'https://github.com/scalefocus/TwoWayBondage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
