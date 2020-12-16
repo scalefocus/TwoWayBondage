@@ -54,7 +54,9 @@ extension Bindable where Self: NSObject {
 
     public func bind(with observable: Observable<BindingType>) {
         if let _self = self as? UIControl {
-            _self.addTarget(Selector, action: Selector{ self.valueChanged() }, for: [.editingChanged, .valueChanged])
+            _self.addTarget(Selector,
+                            action: Selector{ self.valueChanged() },
+                            for: [.editingChanged, .valueChanged, .editingDidEnd])
         }
         self.binder = observable
         if let val = observable.value {
