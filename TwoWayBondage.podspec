@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TwoWayBondage'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'TwoWayBondage adds binding between UIControls and Observables'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: TwoWayBondage adds binding between UIControls and Observables Using https://github.com/manishkkatoch/SimpleTwoWayBindingIOS so.. check there for updates Add long description of the pod here.
+TwoWayBondage adds binding between UIControls and Observables Using https://github.com/manishkkatoch/SimpleTwoWayBindingIOS
                        DESC
 
   s.homepage         = 'https://github.com/scalefocus/TwoWayBondage'
