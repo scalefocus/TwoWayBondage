@@ -38,14 +38,14 @@ public class Observable<ObservedType> {
     public func bindAndFire(observer: @escaping Observer) {
         bind(observer: observer)
         if let value = value {
-            notifyObservers(value)
+            observer(value)
         }
     }
     
     public func bindAndFire<T: AnyObject>(_ object: T, observer: @escaping (T, ObservedType) -> Void) {
         bind(object, observer: observer)
         if let value = value {
-            notifyObservers(value)
+            observer(object, value)
         }
     }
     
