@@ -15,8 +15,8 @@ Table of contents
 
 
 ## Requirements
-- iOS 10.0+
-- Swift 4
+- iOS 12.0+
+- Swift 5
 
 ## Installation
 
