@@ -1,5 +1,5 @@
 PODS:
-  - TwoWayBondage (2.0.0)
+  - TwoWayBondage (2.2.0)
 
 DEPENDENCIES:
   - TwoWayBondage (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TwoWayBondage: 722389db5cccfaab572caf4b3e326e12b1cdc984
+  TwoWayBondage: bb5475a546a41719d61cac025a12a969fab0cb5e
 
 PODFILE CHECKSUM: 4362f1ad751b8011105263f2336725cf31bd4c73
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.2
