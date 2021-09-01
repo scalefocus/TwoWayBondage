@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TwoWayBondage'
-  s.version          = '2.1.0'
+  s.version          = '2.2.0'
   s.summary          = 'TwoWayBondage adds binding between UIControls and Observables'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ TwoWayBondage adds binding between UIControls and Observables Using https://gith
   s.source           = { :git => 'https://github.com/scalefocus/TwoWayBondage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-  s.swift_version = '4.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'TwoWayBondage/Classes/**/*'
   
